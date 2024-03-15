@@ -20,13 +20,13 @@ function encriptar() {
       document.getElementById("mensaje-encriptado").value = textoCifrado;
       tituloMensaje.textContent = textoCifrado;
       parrafo.textContent = "Mensaje cifrado con exito";
-      zoya.src = "zoya.PNG";
+      zoya.src = "zoya.png";
       document.getElementById("texto").value = "";
 
 
     }
     else {
-      zoya.src = "chief.PNG";
+      zoya.src = "chief.png";
       tituloMensaje.textContent = "Ningún mensaje fue encontrado";
       parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar";
 
@@ -58,11 +58,11 @@ function desencriptar() {
       document.getElementById("mensaje-encriptado").value = textoCifrado;
       tituloMensaje.textContent = textoCifrado;
       parrafo.textContent = "Mensaje descifrado con exito";
-      zoya.src = "zoya.PNG";
+      zoya.src = "zoya.png";
       document.getElementById("texto").value = "";
 
     } else {
-      zoya.src = "chief.PNG";
+      zoya.src = "chief.png";
       tituloMensaje.textContent = "Ningún mensaje fue encontrado";
       parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar";
       
