@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador</title>
+  <link rel="stylesheet" href="style.css" />
+ 
+</head>
+
+<header>
+  <img src="https://endeavor.org.br/wp-content/uploads/2023/04/Alura-1-360x360.png">
+</header>
+
+<main>
+
+  <body>
+
+    <section class="contenedorcaja">
+      <div class="encriptar">
+        <textarea name="texto" class="text" id="texto" cols="30" rows="10"
+          placeholder="Ingrese el texto aquí..."></textarea>
+      </div>
+    </section>
+
+    <section class="alerta">
+      <p> ⚠ Solo letras minúsculas y sin acentos. ⚠</p>
+      <div class="contenedorbotones">
+        <button class="btn_encriptar" type="button" onclick="encriptar()">
+          Encriptar
+        </button>
+        <input type="button" class="btn_desencriptar" value="Desencriptar" onclick="desencriptar()" />
+    </section>
+
+
+
+    <section class="resultado">
+      <img src="chief.png" id="zoya" class="lumine" />
+      <div class="contenedor_parrafo" id="mensaje-encriptado">
+        <h2 id="titulo-mensaje">Ningún mensaje fue encontrado</h2>
+        <p id="parrafo">Ingresa el texto que deseas encriptar o desencriptar</p>
+      </div>
+    </section>
+
+
+    <div class="copiar">
+      <button id="btncopy" class="botton" onclick="btnCopiar();"><i class="fas fa-copy"></i> Copiar</button>
+    </div>
+
+  </body>
+</main>
+
+<footer class="footer">
+  <div class="foot">
+    <p> © Hecho por | Laura Padron </p>
+    <a href="http://www.linkedin.com/in/laura-judith-padrón-loredo/" target="_blank"><img class="logos"
+        src="https://cdn-icons-png.flaticon.com/256/174/174857.png" /></a>
+    <a href="https://github.com/Jkd-8" target="_blank"><img class="logo"
+        src="https://cdn-icons-png.flaticon.com/512/25/25231.png"></a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</html>

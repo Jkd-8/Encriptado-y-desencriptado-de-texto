@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: radial-gradient(#680202, #1f1a1a);
+  max-width: 1400px;
+  background-image: url(https://p4.wallpaperbetter.com/wallpaper/85/919/639/asus-republic-of-gamers-gaming-laptop-gamer-hd-wallpaper-preview.jpg);
+  padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  overflow-x: hidden;
+
+
+}
+
+header img {
+  width: 100px;
+  margin: 0;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0;
+}
+
+
+
+
+.text {
+  width: 80%;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #f1f4f8;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  border-color: none;
+
+}
+
+.text::placeholder {
+  color: #f1f4f8;
+  font-family: "Times New Roman", Times, serif;
+
+}
+
+.contenedorcaja {
+  flex-direction: column;
+  padding-left: 15%;
+
+}
+
+.alerta p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  position: relative;
+  color: white;
+  flex: none;
+  align-content: center;
+  transform: translateY(-70px);
+  left: 24%;
+  top: 10px;
+}
+
+.botton {
+  font-size: 1.0em;
+  font-weight: 200;
+  font-style: oblique;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 120px;
+  text-align: center;
+  background-color: aliceblue;
+  border: 2px solid antiquewhite;
+}
+
+.copiar {
+  transform: translateX(27%) translateY(-140%);
+
+}
+
+.botton:hover {
+  background: radial-gradient(#7a2323, #020101);
+  color: #f1f4f8;
+}
+
+
+.btn_encriptar,
+.btn_desencriptar {
+  font-size: 1.0em;
+  font-weight: 200;
+  font-style: oblique;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 120px;
+  text-align: center;
+  background-color: aliceblue;
+  border: 2px solid antiquewhite;
+  gap: 15rem;
+
+}
+
+.contenedorbotones {
+  padding-bottom: 10%;
+  transform: translateY(-180%) translateX(20%);
+
+}
+
+
+.btn_desencriptar:hover,
+.btn_encriptar:hover {
+  background: radial-gradient(#7a2323, #020101);
+  color: #f1f4f8;
+}
+
+
+
+.resultado {
+  width: 60%;
+  height: 80%;
+  box-sizing: border-box;
+  background-color: #f1f4f8;
+  box-shadow: 2px 8px 8px 2px rgb(0, 0, 0);
+  border-radius: 20px;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  grid-template-rows: auto;
+  transform: translateY(-80px) translateX(20%);
+
+}
+
+.contenedor_parrafo {
+  color: #020101;
+  font-size: 1em;
+
+}
+
+.contenedor_parrafo h2 {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: 500;
+  color: rgb(36, 98, 192);
+  line-height: 200%;
+  grid-template-rows: auto 1fr;
+
+}
+
+.lumine {
+  width: 40%;
+}
+
+footer {
+  width: 100%;
+  align-items: center;
+  background-color: #680202;
+}
+
+.foot {
+  text-align: center;
+  color: #f1f4f8;
+
+}
+
+.logos,
+.logo {
+  width: 20px;
+  align-items: center;
+  transform: translateX(-20px);
+  padding-top: 2%;
+  gap: 15rem;
+}
+
+
+
+@media screen and (max-width:640px) {
+
+
+  body {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 0;
+
+
+  }
+
+  .lumine {
+    width: 100%;
+
+  }
+
+  header {
+    width: 100%;
+    margin: auto;
+
+  }
+
+  footer {
+    width: 100%;
+  }
+
+  .foot {
+    gap: 2%;
+  }
+
+  .resultado {
+    width: 70%
+  }
+
+  .botton {
+    align-items: center;
+    width: 50%;
+  }
+
+  .text {
+    width: 80%;
+    height: auto;
+    padding-top: 20%;
+    padding-right: 20%;
+
+  }
+
+  .alerta p {
+    font-size: 1em;
+    justify-self: flex-start;
+
+  }
+
+  .contenedor_parrafo h2 {
+    font-size: 1em;
+  }
+
+  .contenedor_parrafo p {
+    font-size: 1em;
+  }
+
+}
+
+@media (min-width:1000px) {
+  header {
+    width: 100%;
+  }
+
+  .alerta p{
+    font-size: 2em;
+    justify-content: center;
+
+  }
+  .resultado{
+    width: 70%;
+  }
+
+  .contenedor_parrafo h2{
+    font-size: 2em;
+  }
+  .contenedor_parrafo p{
+    font-size: 1.5em;
+  }
+
+
+  .lumine {
+    width: 60%;
+  }
+
+
+  .contenedorbotones {
+    gap: 1rem;
+    display: flex;
+    padding-bottom: 5%;
+    padding-left: 15%;
+
+  }
+  .copiar{
+    padding-left: 16%;
+  }
+  .botton{
+    width: 180px;
+  }
+  footer{
+    padding: 3%;
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .logos, .logo{
+    width: 35px;
+    align-items: center;
+
+  }
+
+
+
+}
